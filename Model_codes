@@ -16,6 +16,14 @@ df = pd.read_csv(r'C:\Users\deepa\Desktop\data.csv')
 df.head()
 
 df = df.drop(['id','Unnamed: 32'], axis=1)
-
 df.head()
 
+# EDA & Preprocessing
+df.info()
+
+df.shape
+
+df.describe().T
+
+plt.subplots(figsize=(18, 18))
+sns.heatmap(df.corr(), annot=True, linewidths=.5, fmt= '.1f')
