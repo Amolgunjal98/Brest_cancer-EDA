@@ -13,8 +13,9 @@ Breast Cancer: Winconsin Breast Cancer Dataset
 2. NumPy
 3. Matplotlib
 4. Seaborn
-5. Flask
-6. HTML
+5. joblib
+6. Flask
+7. HTML
 
 # Steps used for Deployment:
 1. Created the ML model with Hyperparameter and saved it using joblib.
